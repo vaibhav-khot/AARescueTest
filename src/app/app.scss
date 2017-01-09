@@ -1,0 +1,123 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// To Override ion-content default background color on android
+.content {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+// To Override ion-content default background color on android
+.nav-decor {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+// To Override ion-button default text-tranform uppercase
+.button {
+  text-transform: none !important;
+}
+
+h1 {
+  font-size: 2em !important;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em !important;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgba(162, 163, 167, 1);
+  height: 3.9rem;
+  color: rgba(53, 53, 53, 1);
+}
+
+.app-logo-container {
+  position: relative;
+  top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vw;
+  width: 20vw;
+  border: 1px solid red;
+  // Remove After Adding Image
+
+}
+.app-logo-container1 {
+
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  height: 20vw;
+  width: 20vw;
+  border: 1px solid red;
+  // Remove After Adding Image
+
+}
+
+.background {
+  background: url("../assets/img/background/background.jpg") !important;
+  background-size: 100vw 100vh !important;
+  background-repeat: no-repeat !important;
+}
+
+/*
+*===============================================================================
+* PanicAlertPage
+* HomeDashboardPage
+*/
+.cheader ion-navbar {
+  height: 10vh !important;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  .toolbar-background {
+    background-color: rgba(203, 204, 208, 1) ;
+  }
+
+}
+.header::after {
+  content: none;
+}
+
+// Alert box ICON background ==========
+.i {
+  height: 40px;
+  width: 40px;
+  background: rgba(249,183,0,1);
+  text-align: center;
+  border-radius: 50%;
+  line-height: 40px;
+}
+
+.button-background {
+ text-align: center;
+ margin-bottom: 10px;
+}
+.alert_up_dt {
+  background: rgba(163, 164, 168, 1) !important;
+  width: 100%;
+  border-radius: 20px !important;
+  .button-inner {
+    justify-content: center !important;
+    color: #eee;
+  }
+}
+//========================
+/*
+*===============================================================================
+*/

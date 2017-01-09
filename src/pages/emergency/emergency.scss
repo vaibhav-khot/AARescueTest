@@ -1,0 +1,18 @@
+page-emergency {
+  ion-menu .menu-inner {
+    background: url("../assets/img/background/background.jpg") !important;
+    background-size: 100vw 100vh !important;
+    background-repeat: no-repeat !important;
+  }
+
+  ion-title {
+    color: white !important;
+  }
+  button.item-block {
+    background-color: transparent;
+
+  }
+  .list-md .item-block .item-inner {
+    border-bottom: transparent;
+  }
+}

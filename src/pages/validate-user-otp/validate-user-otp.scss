@@ -1,0 +1,21 @@
+page-validate-user-otp {
+
+  .otp-subtitle {
+    position: relative;
+    top: 29%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal !important;
+  }
+
+  .otpnumber {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    position: relative;
+    top: 40% !important;
+  }
+
+  .continue {
+    position: relative;
+    top: 50%;
+  }
+}

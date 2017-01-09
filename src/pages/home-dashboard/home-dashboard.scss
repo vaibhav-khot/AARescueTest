@@ -1,0 +1,34 @@
+page-home-dashboard {
+  .cheader ion-toolbar {
+    height: 10vh !important;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    .toolbar-background {
+      background-color: rgba(203, 204, 208, 1) ;
+    }
+  }
+  ion-row {
+    height: 28vh;
+    text-align: center;
+  }
+   .alert-button {
+    justify-content: center;
+    padding: 8px 8px 8px 24px;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    margin: 25px;
+  }
+
+
+  ion-col:active {
+    border-bottom-color: red !important ;
+    border-bottom-left: red !important;
+    border-bottom-right: red !important;
+    border-bottom-top: red !important;
+  }
+  ion-col:hover {
+    transform: scale(1.1) !important;
+    background: red !important;
+  }
+}

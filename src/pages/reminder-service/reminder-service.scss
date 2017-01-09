@@ -1,0 +1,14 @@
+page-reminder-service {
+  background-color: rgba(204, 204, 204, 1);
+  .cheader ion-toolbar {
+    height: 10vh !important;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    .toolbar-background {
+      background-color: rgba(170, 171, 175, 1) ;
+    }
+  }
+  .view-reminder-button {
+    background-color: rgba(249, 183, 0, 1);
+  }
+}

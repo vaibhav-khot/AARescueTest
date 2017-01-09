@@ -1,0 +1,26 @@
+page-poi-list {
+  background-color: rgba(204, 204, 204, 1);
+  .cheader ion-toolbar {
+    height: 10vh !important;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    .toolbar-background {
+      background-color: rgba(170, 171, 175, 1) ;
+    }
+  }
+  
+  .mapListButton {
+    background-color: white !important;
+  }
+  .label {
+    margin: 6px 0px 6px 0;
+  }
+  .item {
+    padding-left: 8px;
+  }
+  ion-select {
+    width: 100%;
+    max-width:100%;
+
+  }
+}

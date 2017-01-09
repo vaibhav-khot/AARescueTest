@@ -1,0 +1,34 @@
+page-panic-alert {
+
+  .panic-alert-icon-container {
+    background-color:rgba(0,0,0,0) !important;
+    height: 40% !important;
+  }
+
+  .toolbar-background {
+    background-color: rgba(203, 204, 208, 1) ;
+  }
+
+
+  .panic-alert-icon-text {
+    background-color:white !important;
+    height: 60% !important;
+  }
+  ion-slides .swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+
+  }
+   .swiper-pagination {
+    bottom: 43% !important;
+  }
+
+  .panic-alert-icons {
+    border: 1px solid red;
+    height: 25vh;
+    width: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+  }
+}

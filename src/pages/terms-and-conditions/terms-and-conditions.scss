@@ -1,0 +1,35 @@
+page-terms-and-conditions {
+
+  overflow: hidden !important;           // to overide ion-content default Scroll
+
+  h1, h3, .terms-and-conditions {
+    color: rgba(255,255,255,1) !important;
+  }
+
+  .welcome-title {
+    position: relative;
+    top: 30vh;
+  }
+
+  .welcome-subtitle {
+    position: relative;
+    top: 29vh;
+  }
+
+  .terms-and-conditions {
+    position: relative;
+    top: 50vh;
+    text-shadow: 0 0 2px black;
+  }
+
+  .agree-and-continue {
+    position: relative;
+    top: 57vh;
+  }
+  .footer::before {
+    content: none;
+  }
+  ion-footer {
+    height: 20vh;
+  }
+}

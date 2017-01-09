@@ -1,0 +1,20 @@
+page-edit-reminder {
+  background-color: rgba(204, 204, 204, 1);
+  .cheader ion-toolbar {
+    height: 10vh !important;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    .toolbar-background {
+      background-color: rgba(170, 171, 175, 1) ;
+    }
+  }
+  .footer::before {
+    content: none;
+  }
+  .deleteButton {
+    background-color: rgba(158, 9, 15, 1);
+    color: white;
+  }
+
+
+}

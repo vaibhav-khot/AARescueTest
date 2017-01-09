@@ -1,0 +1,43 @@
+page-validate-user {
+
+  overflow: hidden !important;           // to overide ion-content default Scroll
+
+  .validate-title {
+    position: relative;
+    top: 30vh;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .validate-title1 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+
+  .validate-subtitle {
+    position: relative;
+    top: 29vh;
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal !important;
+  }
+  .validate-subtitle1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal !important;
+  }
+
+  .cellphonenumber {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    position: relative;
+    top: 40vh !important;
+  }
+  .cellphonenumber1 {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+  }
+
+  .continue {
+    position: relative;
+    top: 50vh;
+  }
+
+}
