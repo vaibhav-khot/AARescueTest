@@ -8,6 +8,7 @@ import { NavController,
 import { AccidentAssistPage } from '../accident-assist/accident-assist';
 import { ReminderServicePage } from '../reminder-service/reminder-service';
 import { POIListPage } from '../poi-list/poi-list';
+import { UpdateYourDetailsPage } from '../update-your-details/update-your-details';
 /*
   Generated class for the HomeDashboard page.
 
@@ -40,7 +41,7 @@ export class HomeDashboardPage {
           text: "Update Details",
           cssClass: "alert_up_dt",
           handler: ()=>{
-            
+            this.navCtrl.push(UpdateYourDetailsPage);
           }
         }]
      });

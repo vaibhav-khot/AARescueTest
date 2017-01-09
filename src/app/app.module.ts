@@ -21,6 +21,7 @@ import { EditReminderPage } from '../pages/edit-reminder/edit-reminder';
 import { SavedScreenPage } from '../pages/saved-screen/saved-screen';
 import { POIListPage } from '../pages/poi-list/poi-list';
 import { POIMapPage } from '../pages/poi-map/poi-map';
+import { UpdateYourDetailsPage } from '../pages/update-your-details/update-your-details';
 /**
  * =============================================================================
  * Service Import
@@ -50,7 +51,8 @@ import { POIMapPage } from '../pages/poi-map/poi-map';
     EditReminderPage,
     SavedScreenPage,
     POIListPage,
-    POIMapPage
+    POIMapPage,
+    UpdateYourDetailsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -71,7 +73,8 @@ import { POIMapPage } from '../pages/poi-map/poi-map';
     EditReminderPage,
     SavedScreenPage,
     POIListPage,
-    POIMapPage
+    POIMapPage,
+    UpdateYourDetailsPage
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

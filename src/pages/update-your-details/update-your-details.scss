@@ -1,0 +1,18 @@
+page-update-your-details {
+  background-color: rgba(204, 204, 204, 1);
+  .cheader ion-toolbar {
+    height: 10vh !important;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    .toolbar-background {
+      background-color: rgba(203, 204, 208, 1) ;
+    }
+  }
+  .ud_fn_ln {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    position: relative;
+    top: 40% !important;
+  }
+
+}
