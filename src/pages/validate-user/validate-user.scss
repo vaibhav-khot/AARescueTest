@@ -12,7 +12,6 @@ page-validate-user {
     color: rgba(255, 255, 255, 1);
   }
 
-
   .validate-subtitle {
     position: relative;
     top: 29vh;
@@ -38,6 +37,13 @@ page-validate-user {
   .continue {
     position: relative;
     top: 50vh;
+  }
+  .scroll-content {
+    overflow: hidden;
+    padding-bottom: 0 !important;
+  }
+  .text-input-wp {
+    border: none
   }
 
 }

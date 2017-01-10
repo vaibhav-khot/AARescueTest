@@ -1,10 +1,12 @@
 page-home-dashboard {
   .cheader ion-toolbar {
     height: 10vh !important;
-    border-bottom-left-radius: 70%;
-    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
     .toolbar-background {
-      background-color: rgba(203, 204, 208, 1) ;
+      // background-color: rgba(203, 204, 208, 1) ;
+      background: linear-gradient(180deg, #FFFFFF 10%, #A2A4A7 100%);/* W3C */
+
     }
   }
   ion-row {
@@ -30,5 +32,9 @@ page-home-dashboard {
   ion-col:hover {
     transform: scale(1.1) !important;
     background: red !important;
+  }
+  svg {
+    height: 100%;
+    width: 32px;
   }
 }

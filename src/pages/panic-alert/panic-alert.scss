@@ -6,7 +6,9 @@ page-panic-alert {
   }
 
   .toolbar-background {
-    background-color: rgba(203, 204, 208, 1) ;
+    // background-color: rgba(203, 204, 208, 1) ;
+    background: linear-gradient(180deg, #A2A4A7 0, #FFFFFF 95%);/* W3C */
+    
   }
 
 
@@ -30,5 +32,9 @@ page-panic-alert {
     margin-right: auto;
     margin-left: auto;
     border-radius: 50%;
+  }
+  svg {
+    height: 100%;
+    width: 32px;
   }
 }

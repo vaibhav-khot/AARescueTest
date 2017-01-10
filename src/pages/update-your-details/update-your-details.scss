@@ -2,10 +2,11 @@ page-update-your-details {
   background-color: rgba(204, 204, 204, 1);
   .cheader ion-toolbar {
     height: 10vh !important;
-    border-bottom-left-radius: 70%;
-    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
     .toolbar-background {
-      background-color: rgba(203, 204, 208, 1) ;
+      // background-color: rgba(203, 204, 208, 1) ;
+      background: linear-gradient(180deg, #A2A4A7 0, #FFFFFF 95%);/* W3C */
     }
   }
   .ud_fn_ln {
