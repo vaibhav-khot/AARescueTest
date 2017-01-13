@@ -32,7 +32,13 @@ page-terms-and-conditions {
   ion-footer {
     height: 20vh;
   }
+
   .scroll-content {
     overflow-y:hidden;
+  }
+
+  svg {
+    height: 25vw;
+    width: 25vw;
   }
 }

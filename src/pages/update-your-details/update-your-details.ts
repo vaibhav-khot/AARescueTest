@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { AppAvailability, Device , AppRate} from 'ionic-native';
+
 
 /*
   Generated class for the UpdateYourDetails page.
@@ -18,5 +20,36 @@ export class UpdateYourDetailsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad UpdateYourDetailsPage');
   }
+  yesClick() {
+//     var scheme;
+//     if(Device.platform === 'iOS') {
+//       scheme = "twitter://";
+//     } else if (Device.platform === 'Android') {
+//       scheme = "com.twitter.android";
+//   }
+//   AppAvailability.check(scheme).then((data)=>{
+//       window.open(encodeURI(scheme), '_blank');
+//       console.log('mansystems is available  '+scheme);
+//       console.log('return data' +data);
+//
+//
+// })
+AppRate.preferences.customLocale = {
+  title: "Launch AA eCards App",
+  message: "",
+  cancelButtonLabel: "No",
+  rateButtonLabel: "Yes",
+  laterButtonLabel: ""
+};
+AppRate.preferences.storeAppURL = {
+  ios: '1055934947',
+  android: 'market://details?id=com.mansystems.aa',
+};
+
+AppRate.promptForRating(true);
+
+
+
+ }
 
 }

@@ -45,5 +45,12 @@ page-validate-user {
   .text-input-wp {
     border: none
   }
+  svg {
+    height: 25vw;
+    width: 25vw;
+  }
+  ion-input {
+    height: 49px !important;
+  }
 
 }

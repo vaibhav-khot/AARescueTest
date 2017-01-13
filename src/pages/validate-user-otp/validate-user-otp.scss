@@ -20,5 +20,13 @@ page-validate-user-otp {
   }
   .scroll-content {
     overflow: hidden !important;
+    padding-bottom: 0 !important;
+  }
+  svg {
+    height: 25vw;
+    width: 25vw;
+  }
+  ion-input {
+    height: 49px !important;
   }
 }

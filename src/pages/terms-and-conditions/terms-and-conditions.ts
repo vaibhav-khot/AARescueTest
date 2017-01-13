@@ -28,9 +28,7 @@ export class TermsAndConditionsPage {
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public loadingCtrl: LoadingController
-              ) {
-
-  }
+              ) {}
 
   agree() {
     let loader=this.loadingCtrl.create(
