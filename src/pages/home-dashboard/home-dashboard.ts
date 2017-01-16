@@ -30,7 +30,7 @@ export class HomeDashboardPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomeDashboardPage');
-    var ic = '<ion-icon name="contact"></ion-icon>';
+    // var ic = '<ion-icon name="contact"></ion-icon>';
     let alert = this.alertCtrl.create({
       // <ion-icon name=\"contact\">hello</ion-icon>
         title: `<div class="button-background">
